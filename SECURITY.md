@@ -69,3 +69,6 @@ Past security advisories will be listed below.  We credit reporters for identify
 security issues, although we keep your name confidential if you request it.
 
 :question: For information on our incident response process see [humancellatals/dcp-community/rfc/text/0009-Incident-Response-Plan](https://github.com/HumanCellAtlas/dcp-community/blob/master/rfcs/text/0009-Incident-Response-Plan.md)
+
+### Automated vulnerability resolution
+Our automated security tools (such as Snyk) alert us of vulnerabilities, and will open pull requests if these issues can be easily resolved. If these pull requests pass our component unit tests and platform integration tests we will merge them in short order. When resolution is not automated we will prioritize resolving these issues by their severity.
